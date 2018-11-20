@@ -1,0 +1,49 @@
+$opensans : 'Open Sans', sans-serif;
+$black  : #0e0e0e;
+$white : #fcfcfc;
+$orange : #ff7844;
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: $opensans;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 300;
+}
+
+.bg-black-trans{
+  background: rgba(0, 0, 0, 0.60);
+}
+
+.bg-black{
+  background-color: #0e0e0e;
+}
+
+.bg-white{
+  background-color: #fafafa;
+}
+
+.bg-lgrey{
+  background-color: #ebebeb;
+}
+
+.bg-dgrey{
+  background-color: #393939;
+}
+
+.c-white{
+  color: $white;
+}
+
+.c-black{
+  color:$black;
+}

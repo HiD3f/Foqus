@@ -1,0 +1,17 @@
+.btn-visit{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  @include transition(color,0.3s);
+  &:hover,&:active,&:focus{
+    color: $orange;
+  }
+  border-bottom: 2px solid;
+  &.c-white{
+    border-bottom-color: rgba(255,255,255,0.5);
+  }
+  &.c-black{
+    border-bottom-color: rgba(0,0,0,0.2);
+  }
+}

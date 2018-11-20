@@ -1,0 +1,23 @@
+.brand {
+  display: inline-block;
+  position: relative;
+  color:  white;
+  line-height: 120px;
+  b{
+    font-size: 52px;
+    font-weight: 700;
+  }
+  em{
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 300;
+  }
+  &.colored{
+    b{
+      color: #ff7844;
+    }
+    em{
+      color: #419ed3;
+    }
+  }
+}

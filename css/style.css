@@ -1,0 +1,291 @@
+/*//// PARTIALS /////*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+.bg-black-trans {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.bg-black {
+  background-color: #0e0e0e;
+}
+
+.bg-white {
+  background-color: #fafafa;
+}
+
+.bg-lgrey {
+  background-color: #ebebeb;
+}
+
+.bg-dgrey {
+  background-color: #393939;
+}
+
+.c-white {
+  color: #fcfcfc;
+}
+
+.c-black {
+  color: #0e0e0e;
+}
+
+.section {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.shell {
+  max-width: 1400px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.section-group-features {
+  padding: 60px 0 50px;
+}
+
+.section-features {
+  position: relative;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.section-features-left {
+  padding-bottom: 0;
+}
+
+.section-content-text {
+  font-size: 28px;
+  font-weight: 300;
+  opacity: 0.8;
+  margin-top: 30px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+  float: left;
+  background-image: url("../images/splash.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.brand {
+  display: inline-block;
+  position: relative;
+  color: white;
+  line-height: 120px;
+}
+.brand b {
+  font-size: 52px;
+  font-weight: 700;
+}
+.brand em {
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 300;
+}
+.brand.colored b {
+  color: #ff7844;
+}
+.brand.colored em {
+  color: #419ed3;
+}
+
+.navbar {
+  padding: 0 60px;
+  line-height: 120px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.menu {
+  color: white;
+  display: inline-block;
+  position: relative;
+}
+.menu .menu-item {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  margin: 0 16px;
+  font-weight: 600;
+}
+
+.brand {
+  position: absolute;
+  left: 0;
+  margin-left: 60px;
+}
+
+.btn-visit {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+  border-bottom: 2px solid;
+}
+.btn-visit:hover, .btn-visit:active, .btn-visit:focus {
+  color: #ff7844;
+}
+.btn-visit.c-white {
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+.btn-visit.c-black {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+.section-intro {
+  height: 100vh;
+}
+
+.intro {
+  padding: 0 115px 85px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+.intro .intro-content {
+  max-width: 85%;
+}
+.intro h1 {
+  font-size: 72px;
+}
+.intro h5 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.section-about {
+  padding: 160px 0 170px;
+}
+.section-about .section-content {
+  max-width: 960px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section-about h1 {
+  font-weight: 400;
+  font-size: 37px;
+}
+.section-about p {
+  opacity: 0.5;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.section-features .section-image {
+  width: 50%;
+  float: left;
+  padding: 35px;
+}
+.section-features .section-image img {
+  width: 100%;
+}
+.section-features .section-content {
+  width: 50%;
+  float: right;
+  padding: 0 0 0 100px;
+}
+.section-features .section-content h3 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.section-features .section-content p {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 2.25em;
+}
+
+.mission h1 {
+  font-weight: 600;
+  font-size: 44px;
+}
+
+@media (max-width: 767px) {
+  .brand {
+    margin-left: 20px;
+    line-height: 64px;
+  }
+  .brand b {
+    font-size: 30px;
+  }
+
+  .menu.desktop {
+    display: none;
+  }
+
+  .intro {
+    padding: 0 60px 50px;
+  }
+  .intro .intro-content {
+    max-width: 100%;
+  }
+  .intro h1 {
+    font-size: 29px;
+  }
+  .intro h5 {
+    font-size: 11px;
+  }
+
+  .shell {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .section-content-text {
+    font-size: 16px !important;
+  }
+
+  .section-about {
+    padding: 40px 0 80px;
+  }
+  .section-about h1 {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .section-about p {
+    font-size: 16px;
+  }
+
+  .section-features {
+    padding: 0;
+  }
+  .section-features h3 {
+    font-size: 27px !important;
+  }
+  .section-features .section-image, .section-features .section-content {
+    width: 100% !important;
+    padding: 0;
+  }
+}
